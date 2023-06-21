@@ -1,0 +1,48 @@
+#enviar
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	background-color: rgb(145, 243, 145);
+	border-color: rgb(145, 243, 145);
+}
+#ordenar
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	background-color: rgb(252, 252, 156);
+	border-color: rgb(252,252,156);
+}
+
+input
+{
+	margin: 10px;
+}
+#ver_nombre_con_comas
+{
+	border: 1px solid green;
+    padding: 10px;
+	background-color: rgb(198, 237, 140);
+	border-radius: 10px;
+    width: 50%;
+}
+
+#ver_nombre_sin_comas
+{
+	border: 1px solid red;
+    padding: 10px;
+    background-color: rgb(242, 156, 156);
+	border-radius: 10px;
+    width: 50%;
+}
+body{
+	background-color: greenyellow;
+}
+
+#nuevo{
+	background-color: aqua;
+	border-color: aqua;
+}
+h3{
+	font-family: 'EB Garamond', serif;
+}

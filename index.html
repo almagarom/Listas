@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link rel="icon" href="lista.png">
+<script src="Tmain.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de alumnos en mi clase
+</h3>
+
+<div id="rows">
+<span>1</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_2">
+<br>
+
+<span>3</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_3">
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_4">
+</div>
+
+<button onclick="submit()" id="enviar">
+	Enviar
+</button>
+<!---------PASO 1-->
+<!---------Es necesario tener esta div para mostrar los nombres ingresados-->
+<div id="ver_nombre_con_comas">
+</div>
+
+<hr>
+
+<!---------PASO 2-->
+<!---------Es necesario tener esta div para mostrar los nombres ingresados SIN COMAS-->
+<div id="ver_nombre_sin_comas">
+</div>
+
+
+<button onclick="sorting()" id="ordenar">
+	Ordenar
+</button>
+
+<!--Actividad Adicional-->
+<br>
+<button id="nuevo" onclick="new_update()">Botón nuevo para actualizar</button>
+</center>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
